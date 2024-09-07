@@ -1,0 +1,6 @@
+This is a book recommendation system based on the user’s ratings, age and location.
+The system is a probabilistic collaborative filtering model that uses latent factorization. 
+It uses MCMC sampling to estimate the parameters of the model, which captures the latent structure of user-item interactions. 
+The project starts with data cleaning and preprocessing, and then continues with the model training using the hierarchical poisson factorization with MCMC sampling. 
+After that we tune the hyperparameters and observe the results of the model using the RMSE, MAE, tables and plots of the posterior distribution.
+
